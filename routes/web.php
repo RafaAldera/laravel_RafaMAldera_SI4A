@@ -1,15 +1,15 @@
 <?php
-
-use App\Http\Controllers\FakultasController;
+use App\Http\Controllers\ProdiController;//jangan lupa import
+use App\Http\Controllers\FakultasController;//jangan lupa import
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-//get,post,delete,resource
-Route::get('/profil', function () {
+route::get('/profil',function (){
     return view('profil');
 });
 
-Route::resource('/fakultas', FakultasController::class);
+route::resource('/fakultas',FakultasController::class);
+route::resource('/prodi',ProdiController::class);

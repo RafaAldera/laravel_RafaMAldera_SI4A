@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Profil</title>
 </head>
 <body>
     <h1>Profil</h1>
 </body>
 </html>
+<!-- php artisan ser / serve -->
+<!-- php artisan make:model fakultas -mcr -->
